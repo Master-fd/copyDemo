@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FDTestModel : NSObject
+@interface FDTestModel : NSObject 
+
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) NSUInteger age;
 
 @end
